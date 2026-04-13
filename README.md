@@ -25,3 +25,10 @@ To accurately estimate the quantity and financial value of high-volume cashew st
 | B-9024 | 40 | 12.0 | Reject / Substandard | Clear |
 
 ---
+
+## 🛠️ Data Challenges Overcome
+*Every dataset has issues. Here is how I handled the "messy" parts of this project to ensure accurate valuation:*
+
+* **Handling Missing Values:** Managed null entries in the cashew stack-count columns by applying average-weight imputation to prevent valuation gaps.
+* **Unit Standardization:** Converted various bag weights (50kg vs. 80kg) into a unified metric to ensure the total weight calculations were consistent across all stacks.
+* **Logic Verification:** Built a validation script to cross-check "Calculated Totals" against "Visual Layer Estimates" to flag discrepancies in the warehouse inventory.
